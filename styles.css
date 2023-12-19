@@ -1,0 +1,228 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    background-image: url('https://i.ibb.co/qkvq9bh/8d3b7d44-b153-4921-839a-1fc889beab0f.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    cursor: url('https://i.ibb.co/MM43ZGG/flake-2029377-640.png');
+}
+
+p {
+    font-size: 20px;
+    color: #000000;
+    padding: 10px;
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+    font-weight: 700;
+}
+
+h1,h2,h3,h4,h5 {
+    color: #000000;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Rubik Maps', sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    font-family: 'Rubik Maps', sans-serif;
+    text-decoration: underline;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section {
+    max-width: 1500px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+}
+
+.hero-section {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2%;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.contact-section {
+    text-align: center;
+    padding: 20px;
+    border-radius: 2%;
+}
+
+.contact-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-form label {
+    text-align: left;
+    font-family: 'Rubik Maps', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    font-family: 'Rubik Maps', sans-serif;
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 1em;
+    text-align: center;
+}
+
+.footer-text {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cta-button {
+    font-family: 'Rubik Maps', sans-serif;
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo-footer {
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+span {
+    padding-right: 5px;
+    font-size: 20px;
+    color: #ff0000;
+}
+
+.weather-widget {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(98, 1, 255, 0.1);
+}
+
+.weather-widget h2 {
+    color: #000000;
+    font-size: 34px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+#weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#city-name {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #09002c;
+    border-bottom: 2px solid #ff0000;
+    display: inline;
+    padding-bottom: 1px;
+}
+
+#weather-info p {
+    font-size: 18px;
+    margin: 5px;
+    padding: 5px;
+    color: #000000;
+}

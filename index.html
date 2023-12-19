@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page for Mountain Gear Equipment</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://i.ibb.co/9wQGS3L/ad0aaf4f-7d95-46d5-b704-71d3779e841e-removebg-preview.png"
+                alt="Mountain Gear Logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a target="_blank" href="#home">Home</a></li>
+                <li><a target="_blank" href="#products">Products</a></li>
+                <li><a target="_blank" href="#aboutus">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="weather-widget">
+        <h2>Mountain Weather</h2>
+        <h1 id="city-name">City: Innsbruck</h1>
+        <div id="weather-info">
+            <p id="temperature"></p>
+            <p id="conditions"></p>
+        </div>
+    </section>
+    <section class="hero-section">
+        <div class="hero-content">
+            <h2>Welcome to Mountain Gear Equipment</h2>
+            <p>Embark on your next adventure fully equipped with the finest gear from Mountain Gear Equipment. We are
+                your premier destination for high-quality mountain gear, designed for enthusiasts who crave the thrill
+                of the great outdoors.</p>
+            <h2>Explore Our Collection</h2>
+            <p>Discover a curated selection of top-notch hiking boots, durable backpacks, reliable climbing gear, and
+                more. Our gear is crafted to meet the demands of seasoned mountaineers and beginners alike, ensuring
+                you're prepared for any expedition.</p>
+            <a target="_blank" href="#shop" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Contact us using the form below:</p>
+
+        <form id="contactForm" action="#" method="post" class="contact-form">
+            <label for="name"><span>*</span>Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email"><span>*</span>Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="message"><span>*</span>Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <nav>
+            <ul>
+                <li><a target="_blank" href="#home"><img class="logo-footer" src="https://i.ibb.co/j8MsPg8/5282541-fb-social-media-facebook-facebook-logo-social-network-icon.png" alt="Facebook"></a></li>
+                <li><a target="_blank" href="#products"><img class="logo-footer" src="https://i.ibb.co/K54WkvQ/5282542-linkedin-network-social-network-linkedin-logo-icon.png" alt="Linkedin"></a></li>
+                <li><a target="_blank" href="#contact"><img class="logo-footer" src="https://i.ibb.co/cL8rpx4/5282545-pin-pinterest-inspiration-pinterest-logo-icon.png" alt="Pinterest"></a></li>
+            </ul>
+        </nav>
+        <p class="footer-text">&copy; 2023 Mountain Gear Equipment. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
